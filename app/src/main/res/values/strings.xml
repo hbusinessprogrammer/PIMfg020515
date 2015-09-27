@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PI Custom RF Cable Builder</string>
+    <string name="left_connector">Left Connector</string>
+    <string name="cable">Cable</string>
+    <string name="right_connector">Right Connector</string>
+
+</resources>

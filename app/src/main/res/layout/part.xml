@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_shape">
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:text="Part Number"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:id="@+id/lbl_part_number_part"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:text="Description"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:id="@+id/lbl_description_part"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:id="@+id/lbl_qty_part"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:id="@+id/lbl_price_part"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/text"
+            android:hint="Click Here To Remove"
+            android:id="@+id/cb_remove_part"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_gravity="right"/>
+</LinearLayout>
